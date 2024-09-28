@@ -159,6 +159,10 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
+cache
+shapefile_output_folder
+malopolskie_bike_graph.graphml
+
 .vscode
 cache
 graph.graphml
