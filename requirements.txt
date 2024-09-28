@@ -6,3 +6,7 @@ scikit-learn
 matplotlib
 shapely
 tqdm
+geopandas
+simplekml
+geopandas
+fiona
