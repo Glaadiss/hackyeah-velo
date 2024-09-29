@@ -15,3 +15,5 @@ rasterio
 numpy
 pyproj
 gpxpy
+fastapi
+uvicorn

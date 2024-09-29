@@ -173,18 +173,18 @@ class PathFinder:
             # # Weighting/excluding by type
             if 'highway' in data and contains(data['highway'], 'cycleway'): # 'tertiary']:
                 data[ATTRACTIVENESS] += 1500
-            elif contains(data['highway'], 'tertiary'):
-                data[ATTRACTIVENESS] += 50
-            elif contains(data['highway'], 'secondary'):
-                data[ATTRACTIVENESS] += 50
-            elif contains(data['highway'], 'primary'):
-                data[ATTRACTIVENESS] -= 200
-            elif contains(data['highway'], 'pedestrian'):
-                data[ATTRACTIVENESS] += 80
-            elif contains(data['highway'], 'unclassified'):
-                data[ATTRACTIVENESS] -= 300
-            else:
-                data[ATTRACTIVENESS] -= 100
+            # elif contains(data['highway'], 'tertiary'):
+            #     data[ATTRACTIVENESS] += 50
+            # elif contains(data['highway'], 'secondary'):
+            #     data[ATTRACTIVENESS] += 50
+            # elif contains(data['highway'], 'primary'):
+            #     data[ATTRACTIVENESS] -= 200
+            # elif contains(data['highway'], 'pedestrian'):
+            #     data[ATTRACTIVENESS] += 80
+            # elif contains(data['highway'], 'unclassified'):
+            #     data[ATTRACTIVENESS] -= 300
+            # else:
+            #     data[ATTRACTIVENESS] -= 100
 
             # Bridges are unatractive
             # if 'bridge' in data and data['bridge'] == 'yes':
@@ -271,4 +271,3 @@ class PathFinder:
 
         # Display the map
         return m
-    
