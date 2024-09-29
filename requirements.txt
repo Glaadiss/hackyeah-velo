@@ -10,3 +10,8 @@ geopandas
 simplekml
 geopandas
 fiona
+elevation
+rasterio
+numpy
+pyproj
+gpxpy

@@ -166,3 +166,8 @@ malopolskie_bike_graph.graphml
 .vscode
 cache
 graph.graphml
+topo_cache
+*.graphml
+topo_cache_old
+*.geojson
+*.gpx
